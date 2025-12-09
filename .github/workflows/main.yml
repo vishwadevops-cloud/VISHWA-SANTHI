@@ -22,26 +22,36 @@ jobs:
           echo "action_dir=$ACTION_DIR" >> $GITHUB_OUTPUT
 
 
-  test:
-    runs-on: ubuntu-latest
-    needs: detect-project-root
-    steps:
-      - uses: actions/checkout@v5
-      - uses: oven-sh/setup-bun@v1
+  test-action:
+  runs-on: ubuntu-latest
+  needs: detect-project-root
+  steps:
+    - uses: actions/checkout@v5
 
-      - run: bun install --frozen-lockfile
-        working-directory: ${{ needs.detect-project-root.outputs.project_dir }}
+    - name: modify action.yml to use local Dockerfile
+      working-directory: ${{ needs.detect-project-root.outputs.action_dir }}
+      run: sed -i "s/image: .*/image: Dockerfile/" action.yml
 
-      - run: npm run type
-        working-directory: ${{ needs.detect-project-root.outputs.project_dir }}
+    - name: generate-snake-game-from-github-contribution-grid
+      uses: ./${{ needs.detect-project-root.outputs.action_dir }}
+      with:
+        github_user_name: platane
+        outputs: |
+          dist/github-contribution-grid-snake.svg
+          dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          dist/github-contribution-grid-snake-ocean.svg?color_snake=orange&color_dots=#dadcdf94,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+          dist/github-contribution-grid-snake-grey.svg?color_snake=111&color_dots=#eee,#aaa,#888,#666,#444
+          dist/github-contribution-grid-snake.gif
+          dist/github-contribution-grid-snake-dark.gif?palette=github-dark
+          dist/github-contribution-grid-snake-ocean.gif?color_snake=orange&color_dots=#dadcdf94,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#f7f8fa
 
-      - run: npm run lint
-        working-directory: ${{ needs.detect-project-root.outputs.project_dir }}
-
-      - run: bun test
-        working-directory: ${{ needs.detect-project-root.outputs.project_dir }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: deploy generated files
+      uses: crazy-max/ghaction-github-pages@v4.1.0
+      with:
+        target_branch: output
+        build_dir: dist
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
   test-action:
