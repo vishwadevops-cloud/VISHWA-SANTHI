@@ -29,20 +29,12 @@
 
 ## 🚨 Featured DevOps Project — AWS Log Monitoring & Alerting System
 
-<!-- 🔹 Animated Architecture GIF -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/Alarm-Graph.png" width="85%" alt="Architecture Animation">
+  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/Alarm-Graph.png" width="85%" alt="Project Architecture"/>
 </p>
 
-> ⏳ GIF in progress  
-A **looping animated diagram** will replace the static architecture image soon. (Automatic generation based on your architecture PNG.)
-
----
-
 ### 🔎 Overview
-A fully automated **event-driven monitoring & notification system** on AWS that detects failures inside application logs and triggers instant alerts — reducing MTTR without manual monitoring.
-
----
+A fully automated **event-driven log monitoring & alerting pipeline** on AWS that detects failures, generates real-time alarms, and sends notification alerts — without manual monitoring.
 
 ### 🧰 Tech Stack & AWS Services Used
 <p align="left">
@@ -55,6 +47,42 @@ A fully automated **event-driven monitoring & notification system** on AWS that 
   <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white"/>
   <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 </p>
+
+---
+
+### ⚙ Project Highlights
+| Feature | Description |
+|--------|-------------|
+| 🔍 Real-time Log Streaming | Application logs from EC2 pushed to CloudWatch |
+| ⚠ Error Detection | Metric Filters detect keywords like `ERROR` |
+| 🚨 Instant Alerting | SNS sends email notifications for failures |
+| 🐍 Failure Simulation | Python log generator used for stress-testing |
+| 💾 Cost Optimization | S3 Lifecycle → Glacier archival for old logs |
+
+---
+
+### 📸 Output Screenshots
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/Live-Logs.png" width="45%"/>
+  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/Email-Alert.png" width="45%"/>
+</p>
+
+---
+
+### 🔗 Project Links
+<p align="center">
+  <a href="https://github.com/VISHWA-SANTHI/aws-log-monitoring-project" target="_blank"><b>🔗 View Repository</b></a> &nbsp;|&nbsp;
+  <a href="https://github.com/VISHWA-SANTHI/aws-log-monitoring-project/tree/main/docs" target="_blank"><b>📘 Documentation</b></a> &nbsp;|&nbsp;
+  <a href="https://github.com/VISHWA-SANTHI/aws-log-monitoring-project/blob/main/setup.sh" target="_blank"><b>⚡ Auto Deployment Script</b></a>
+</p>
+
+---
+
+### 💡 Why This Project Matters
+✔ Eliminates manual log checking  
+✔ Reduces response time during failures  
+✔ Demonstrates **AWS + DevOps + Automation** skills  
+✔ Includes **monitoring, alerting, scripting & cost optimization**
 
 ---
 
