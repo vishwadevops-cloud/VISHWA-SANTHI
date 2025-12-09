@@ -11,7 +11,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -20,8 +19,7 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: "VISHWA-SANTHI"
-          # you can change theme later, default is good
+          USERNAME: "VISHWA-SANTHI"
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
