@@ -29,12 +29,20 @@
 
 ## 🚨 Featured DevOps Project — AWS Log Monitoring & Alerting System
 
+<!-- 🔹 Animated Architecture GIF -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/Alarm-Graph.png" width="85%" alt="Project Architecture"/>
+  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/Alarm-Graph.png" width="85%" alt="Architecture Animation">
 </p>
 
+> ⏳ GIF in progress  
+A **looping animated diagram** will replace the static architecture image soon. (Automatic generation based on your architecture PNG.)
+
+---
+
 ### 🔎 Overview
-A fully automated **event-driven log monitoring & alerting pipeline** on AWS that detects failures, generates real-time alarms, and sends notification alerts — without manual monitoring.
+A fully automated **event-driven monitoring & notification system** on AWS that detects failures inside application logs and triggers instant alerts — reducing MTTR without manual monitoring.
+
+---
 
 ### 🧰 Tech Stack & AWS Services Used
 <p align="left">
@@ -47,6 +55,34 @@ A fully automated **event-driven log monitoring & alerting pipeline** on AWS tha
   <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white"/>
   <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 </p>
+
+---
+
+### ⚙ Project Highlights
+| Capability | Description |
+|----------|-------------|
+| 🔍 Real-time Log Streaming | Application logs continuously forwarded to CloudWatch |
+| ⚠ Failure Pattern Detection | CloudWatch Metric Filters detect `ERROR` level logs |
+| 🚨 Instant Notifications | SNS triggers email alerts to DevOps team |
+| 🐍 Failure Simulation | Python-based generator tests alerts at scale |
+| 💾 Cost Optimization | S3 lifecycle → Glacier archival for old logs |
+
+---
+
+### 🔁 Deployment Flow
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/flowchart.png" width="85%" />
+</p>
+
+flowchart TD
+    User((User)) --> EC2
+    EC2 -->|App Logs| CloudWatch
+    CloudWatch --> MetricFilter
+    MetricFilter -->|Error Detected| Alarm
+    Alarm --> SNS
+    SNS --> Email((Email Notification))
+    EC2 --> S3[(S3 Storage)]
+    S3 --> Glacier[(Glacier Archive)]
 
 ---
 
