@@ -27,33 +27,50 @@
 
 ---
 
-## 📂 Featured Project
+## 📌 Featured Project
 ### 🚨 AWS Event-Driven Log Monitoring & Alerting System
-A scalable end-to-end log analytics pipeline on AWS with automated monitoring and real-time alerts.
+A scalable event-driven architecture for centralized log monitoring and failure notifications on AWS.
 
 | Feature | Description |
 |--------|-------------|
 | 🔍 Real-time monitoring | EC2 → CloudWatch log streaming |
-| ⚠ Error detection | Metric Filters trigger CloudWatch Alarms |
-| 🚨 Alerts | SNS email notifications |
-| 🐍 Log generator | Python-based simulation of failures |
-| 💾 Cost savings | S3 Lifecycle → Glacier archival (≈80% savings) |
+| ⚠ Automated detection | Alarms triggered by ERROR patterns |
+| 🚨 Instant alerting | SNS email notifications |
+| 🐍 Failure simulation | Python log generator |
+| 💾 Cost optimization | S3 Lifecycle → Glacier archival |
 
-🔗 **Repo:** https://github.com/VISHWA-SANTHI
+🔗 Repository: **https://github.com/VISHWA-SANTHI**
+
+---
+
+## 📌 Pinned Projects (Auto Selected)
+<p align="center">
+  <a href="https://github.com/VISHWA-SANTHI" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=VISHWA-SANTHI&repo=aws-event-driven-monitoring&theme=tokyonight"/></a>
+  <a href="https://github.com/VISHWA-SANTHI" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=VISHWA-SANTHI&repo=devops-projects&theme=tokyonight"/></a>
+</p>
 
 ---
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=VISHWA-SANTHI&theme=tokyonight&show_icons=true&rank_icon=github" height="155" />
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight" height="155" />
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&theme=tokyonight&rank_icon=github" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&rank_icon=github" media="(prefers-color-scheme: light)" />
+    <img height="155" src="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&rank_icon=github"/>
+  </picture>
+
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact" media="(prefers-color-scheme: light)" />
+    <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact"/>
+  </picture>
 </p>
 
 ---
 
 ## 🔥 GitHub Streak
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=VISHWA-SANTHI&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com?user=VISHWA-SANTHI&theme=tokyonight"/>
 </p>
 
 ---
@@ -65,16 +82,23 @@ A scalable end-to-end log analytics pipeline on AWS with automated monitoring an
 
 ---
 
-## 🏆 Badges & Achievements
+## 🌌 3D Contribution Graph Wallpaper
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=VISHWA-SANTHI&theme=tokyonight&no-frame=false&margin-w=10" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VISHWA-SANTHI&theme=react-dark&hide_border=true&area=true" />
+</p>
+
+---
+
+## 🔄 Latest GitHub Activity
+<!--GitHub Activity-->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VISHWA-SANTHI&custom_title=Recent+Contributions&theme=tokyonight" />
 </p>
 
 ---
 
 ## 📍 Visitor Counter
 <p align="center">
-
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0F2027,22c55e,2ecc71&height=120&section=header&text=Thanks%20for%20visiting%20💚&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
   <br><br>
   <img src="https://api.visitorbadge.io/api/visitors?path=VISHWA-SANTHI&label=PROFILE+VIEWS&labelColor=%2322c55e&countColor=%23ffffff&style=for-the-badge" />
@@ -82,7 +106,6 @@ A scalable end-to-end log analytics pipeline on AWS with automated monitoring an
   <img src="https://img.shields.io/badge/⭐%20NEXT%20GOAL-100%20PROFILE%20VISITS-1abc9c?style=for-the-badge" />
   <br>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=22c55e&height=100&section=footer" />
-
 </p>
 
 ---
