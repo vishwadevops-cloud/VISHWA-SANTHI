@@ -64,17 +64,8 @@ A scalable event-driven architecture for centralized log monitoring and failure 
 
 ## 📊 GitHub Stats
 <p align="center">
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&theme=tokyonight&rank_icon=github" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&rank_icon=github" media="(prefers-color-scheme: light)" />
-    <img height="155" src="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&rank_icon=github"/>
-  </picture>
-
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact" media="(prefers-color-scheme: light)" />
-    <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact"/>
-  </picture>
+  <img height="155" src="https://github-readme-stats-one-bice.vercel.app/api?username=VISHWA-SANTHI&theme=tokyonight&show_icons=true&rank_icon=github" />
+  <img height="155" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight" />
 </p>
 
 ---
