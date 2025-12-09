@@ -25,38 +25,38 @@
 
 ---
 
-## 📊 1 — GitHub Stats
+### 📊 1 — GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&theme=tokyonight&show_icons=true&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&theme=tokyonight&show_icons=true&hide_border=true&raw=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight&hide_border=true&raw=true" height="150" />
 </div>
 
 ---
 
-## 🟢 2 — Auto Updating Streak & Activity
+### 🟢 2 — Auto Updating Streak & Activity
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=VISHWA-SANTHI&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=VISHWA-SANTHI&theme=tokyonight&hide_border=true&raw=true" />
 </p>
 
 ---
 
-## 🟣 3 — 3D Contribution Chart
+### 🟣 3 — 3D Contribution Chart
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/VISHWA-SANTHI/output/profile-3d-contrib/profile-night-green.svg"/>
+  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/VISHWA-SANTHI/output/profile-3d-contrib/profile-night-green.svg?raw=true" />
 </p>
 
 ---
 
-## 🏆 4 — Trophy Wall
+### 🏆 4 — Trophy Wall
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=VISHWA-SANTHI&theme=tokyonight&no-frame=true&margin-w=6"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=VISHWA-SANTHI&theme=tokyonight&no-frame=true&margin-w=6&raw=true" />
 </p>
 
 ---
 
-## 🔵 5 — DevOps Tools / Languages Graph
+### 🔵 5 — DevOps Tools / Languages Graph
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VISHWA-SANTHI&theme=tokyo-night&hide_border=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VISHWA-SANTHI&theme=tokyo-night&hide_border=true&raw=true" />
 </p>
 
 ---
