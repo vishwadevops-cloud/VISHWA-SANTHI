@@ -43,10 +43,27 @@ A scalable event-driven architecture for centralized log monitoring and failure 
 
 ---
 
-## 📌 Pinned Projects (Auto Selected)
+## 📌 Pinned Projects
 <p align="center">
-  <a href="https://github.com/VISHWA-SANTHI" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=VISHWA-SANTHI&repo=aws-event-driven-monitoring&theme=tokyonight"/></a>
-  <a href="https://github.com/VISHWA-SANTHI" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=VISHWA-SANTHI&repo=devops-projects&theme=tokyonight"/></a>
+
+  <a href="https://github.com/VISHWA-SANTHI/aws-cloudwatch-log-alerting" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=VISHWA-SANTHI&repo=aws-cloudwatch-log-alerting&theme=tokyonight" />
+  </a>
+  <br>
+  <a href="https://github.com/VISHWA-SANTHI/aws-cloudwatch-log-alerting" target="_blank">
+    🔗 <strong>View Project</strong>
+  </a>
+
+  <br><br>
+
+  <a href="https://github.com/VISHWA-SANTHI/jenkins-ci-cd-pipeline" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=VISHWA-SANTHI&repo=jenkins-ci-cd-pipeline&theme=tokyonight" />
+  </a>
+  <br>
+  <a href="https://github.com/VISHWA-SANTHI/jenkins-ci-cd-pipeline" target="_blank">
+    🔗 <strong>View Project</strong>
+  </a>
+
 </p>
 
 ---
