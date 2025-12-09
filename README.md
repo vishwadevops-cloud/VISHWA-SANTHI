@@ -66,10 +66,10 @@ A scalable end-to-end log analytics pipeline on AWS with automated alerting for 
 ---
 
 ## 📍 Visitor Counter
+<!-- Animated heading -->
 <p align="center">
-
-  <!-- Animated heading -->
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&pause=800&color=22C55EFF&center=true&vCenter=true&width=650&lines=Tracking+live+visits...;Every+visit+makes+my+profile+stronger!;Thank+you+for+stopping+by+💚" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=22C55EFF&center=true&vCenter=true&width=550&lines=Tracking+live+visitors+on+my+profile...;Thanks+for+visiting+💚;You+make+my+GitHub+stronger+every+day+🚀" alt="Typing SVG" />
+</p>
 
   <!-- Working Live Visitor Count -->
   <br>
