@@ -13,68 +13,87 @@
 
 ---
 
-### 🚀 About Me
-AWS & DevOps Engineer with **6 months of hands-on experience** in cloud infrastructure, CI/CD automation, Docker containerization, and monitoring using AWS CloudWatch.  
-Passionate about building scalable, reliable & automated deployment pipelines.
+### 🌟 Quote of the Day
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko"/>
+</p>
 
 ---
 
-### 🛠 Tech Stack
-
-| Category | Tools |
-|---------|-------|
-| **Cloud** | AWS (EC2, S3, IAM, VPC, RDS, Lambda, CloudWatch) |
-| **DevOps** | Jenkins, Git, Docker, Docker Compose, Kubernetes (basic), Ansible (basic) |
-| **IaC** | Terraform, AWS CloudFormation |
-| **Scripting** | Python, Bash |
-| **OS & Networking** | Linux, Windows • VPC, DNS, TCP/IP, HTTP/HTTPS |
-| **Other** | Monitoring, CI/CD Deployment Automation |
+### 🛠 Tech Badges
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jenkins-D33833?style=for-the-badge&logo=jenkins&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
 
 ---
 
-### 🔥 Projects
+### 🔥 About Me
+AWS & DevOps Engineer with **6 months of hands-on experience** in CI/CD automation, cloud infrastructure, Docker containerization & monitoring using CloudWatch.  
+Focused on automation, scalability & cloud reliability.
 
+---
+
+### 📂 Projects
 #### 📌 AWS Event-Driven Log Monitoring & Alerting System
-🔹 Real-time log streaming from EC2 → CloudWatch  
-🔹 Metric Filters detect `ERROR` events & trigger alarms  
-🔹 SNS email notifications for high-priority alerts  
-🔹 Python-based log failure simulator used for validation  
-🔹 Cost optimization using S3 Lifecycle → Glacier  
-🔹 Fully automated deployment with EC2 User Data scripts
+- Log streaming from EC2 to CloudWatch
+- Automatic ERROR detection using Metric Filters → CloudWatch Alarms
+- Real-time email notifications using SNS
+- Python failure log generator for testing
+- S3 Lifecycle → Glacier cost optimization (~80% savings)
 
-🔗 **GitHub Projects:** 👉 [Click here](https://github.com/VISHWA-SANTHI)
-
----
-
-### 📄 Resume
-📌 Click to download → **[Vishwa_Resume.pdf](https://vishwa-santhi.github.io/resume-profile/Vishwa_Resume.pdf)**
+🔗 **All Projects:** [GitHub Repositories →](https://github.com/VISHWA-SANTHI)
 
 ---
 
 ### 📊 GitHub Stats
 <div align="center">
 
-| | |
-|---|---|
-| <img src="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&theme=tokyonight&hide_border=true" height="160"/> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight&hide_border=true" height="160"/> |
+<img src="https://github-readme-stats.vercel.app/api?username=VISHWA-SANTHI&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWA-SANTHI&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
 
 </div>
 
 ---
 
+### 🐍 Contribution Snake Graph
+<div align="center">
+  <img src="https://github.com/VISHWA-SANTHI/VISHWA-SANTHI/blob/output/github-contribution-grid-snake.svg"/>
+</div>
+
+---
+
+### 📝 Resume – QR Code
+<p align="center">
+  <a href="https://vishwa-santhi.github.io/resume-profile/Vishwa_Resume.pdf" target="_blank">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://vishwa-santhi.github.io/resume-profile/Vishwa_Resume.pdf" alt="Resume QR Code"/>
+  </a>
+</p>
+
+📌 Scan the QR → Opens Resume directly  
+📌 HR can download via mobile instantly
+
+---
+
 ### 🌱 Currently Learning
-🔹 Kubernetes • CI/CD Best Practices • High Availability Architectures on AWS
+- Kubernetes
+- CI/CD best practices
+- High Availability Architecture on AWS
 
 ---
 
 ### 🤝 Open to Opportunities
-I'm actively looking for roles in **AWS, DevOps, Cloud Engineering & Platform Engineering**.
+I'm actively looking for **AWS / DevOps / Cloud Engineering** roles.
 
 📧 Email — **vishwadevops27@gmail.com**
 
 ---
 
 <div align="center">
-  🚀 <strong>Thanks for visiting my profile!</strong><br>
-  Always happy to connect — feel free to message me on LinkedIn.
+  🔥 <strong>Thanks for visiting my profile!</strong><br>
+  Let's connect on LinkedIn 🙂
 </div>
