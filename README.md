@@ -97,19 +97,6 @@ A fully automated **event-driven log monitoring & alerting pipeline** on AWS tha
 
 ---
 
-## 📘 Deployment Flow
-flowchart TD
-   User((User)) --> EC2
-   EC2 -->|App Logs| CloudWatch
-   CloudWatch --> MetricFilter
-   MetricFilter -->|Error Detected| Alarm
-   Alarm --> SNS
-   SNS --> Email((Email Notification))
-   EC2 --> S3[(S3 Storage)]
-   S3 --> Glacier[(Glacier Archive)]
-
----
-
 ### ⚙ Project Highlights
 | Feature | Description |
 |--------|-------------|
