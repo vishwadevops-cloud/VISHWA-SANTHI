@@ -97,9 +97,9 @@ A fully automated **event-driven log monitoring & alerting pipeline** on AWS tha
 
 ---
 
-### 🔁 Deployment Flow
+## 📘 Deployment Flow
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/aws-log-monitoring-project/main/flowchart.png" width="85%" />
+  <img src="https://raw.githubusercontent.com/VISHWA-SANTHI/VISHWA-SANTHI/main/assets/deployment-flow.png" width="85%" />
 </p>
 
 flowchart TD
