@@ -39,7 +39,6 @@ A fully automated **event-driven log monitoring & alerting pipeline** on AWS tha
 ---
 
 ## ⚙ Project Highlights
-<p align="center">
 | Feature | Description |
 |--------|-------------|
 | 🔍 Real-time Log Streaming | Application logs from EC2 pushed to CloudWatch |
@@ -47,7 +46,7 @@ A fully automated **event-driven log monitoring & alerting pipeline** on AWS tha
 | 🚨 Instant Alerting | SNS sends email notifications to DevOps team |
 | 🐍 Failure Simulation | Python script used for stress-testing alerts |
 | 💾 Cost Optimization | S3 Lifecycle → Glacier archival for old logs |
-</p>
+
 ---
 
 ## 📸 Output Screenshots
